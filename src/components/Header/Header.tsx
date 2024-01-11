@@ -16,26 +16,20 @@ const Header = () => {
             </Link>
           </li>
           <li className="ml-2">
-                <MdDarkMode className="cursor-pointer" />
+            <MdDarkMode className="cursor-pointer" />
           </li>
         </ul>
       </div>
       <ul className="flex items-center justify-between w-full md:w-1/3 mt-4">
-            <li className="hover:-translate-y-2 duration-500 transition-all">
-                <Link href="/">
-                    Home
-                </Link>
-            </li>
-            <li className="hover:-translate-y-2 duration-500 transition-all">
-                <Link href="/rooms ">
-                    Rooms
-                </Link>
-            </li>
-            <li className="hover:-translate-y-2 duration-500 transition-all">
-                <Link href="/contacts">
-                    Contacts
-                </Link>
-            </li>
+        <li className="hover:-translate-y-2 duration-500 transition-all">
+          <Link href="/">Home</Link>
+        </li>
+        <li className="hover:-translate-y-2 duration-500 transition-all">
+          <Link href="/rooms ">Rooms</Link>
+        </li>
+        <li className="hover:-translate-y-2 duration-500 transition-all">
+          <Link href="/contacts">Contacts</Link>
+        </li>
       </ul>
     </header>
   );
